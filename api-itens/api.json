@@ -1,0 +1,64 @@
+{
+    "itens":[
+        {
+            "foto": "calça-masculina",
+            "nome": "Calça masculina preta",
+            "preço": "100,00"
+        },
+        {
+            "foto":"camisa-masculina",
+            "nome": "Camisa masculina",
+            "preço": "89,90"
+        },
+        {
+            "foto":"bermuda-jeans",
+            "nome": "Bermuda jeans masculina",
+            "preço": "70,00"
+        },
+        {
+            "foto":"moletom-vermelho",
+            "nome":"Moletom vermelho masculino",
+            "preço":"200,00"
+        },
+        {
+            "foto":"vestido-preto",
+            "nome": "Vestido preto feminino",
+            "preço": "179,90"
+        },
+        {
+            "foto": "saia-branca",
+            "nome": "Saia branca feminina",
+            "preço": "69,90"
+        },
+        {
+            "foto":"cropped-vermelho",
+            "nome": "Cropped vermelho feminino",
+            "preço": "80,00"
+        },
+        {
+            "foto":"body",
+            "nome": "Body preto feminino",
+            "preço": "100,00"
+        },
+        {
+            "foto":"tenis-feminino",
+            "nome":"Tenis feminino branco",
+            "preço": "250,00"
+        },
+        {
+            "foto":"tenis-masculino",
+            "nome": "Tenis masculino preto",
+            "preço":"300,00"
+        },
+        {
+            "foto": "salto",
+            "nome": "Salto feminino preto",
+            "preço": "199,90"
+        },
+        {
+            "foto": "sapato",
+            "nome": "Sapato azul masculino",
+            "preço": "149,90"
+        }
+    ]
+}

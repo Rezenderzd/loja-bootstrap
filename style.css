@@ -1,0 +1,76 @@
+i{
+  display: block;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+}
+
+.botaoComprar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#botao-compra{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  flex-direction: column;
+  
+}
+
+.input-group{
+  width: 500px;
+}
+
+.form-control{
+  --bs-border-opacity: .5;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#campo-email::placeholder{
+  color: #f8f9fa;
+}
+
+#cadastrar{
+  border-radius: 8px;
+}
+
+.offcanvas-top{
+  width: 400px;
+  height: 150px !important;
+  border-radius: 0px 0px 8px 8px;
+  margin: 0 auto;
+}
+
+.card{
+  height: 450px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body .btn{
+  margin: auto auto 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagens-produtos{
+  width: 200px;
+  height: 275px;
+  align-items: center;
+  border-radius: 8px;
+}
