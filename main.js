@@ -4,7 +4,7 @@ const mensagemEmail = document.querySelector("#mensagem-email")
 const listaItens = document.querySelector("#lista-itens")
 
 async function carregarItens(){
-    const api = await fetch("http://localhost:3000/itens")
+    try{const api = await fetch("http://localhost:3000/itens")
     const itens = await api.json()
     itens.forEach(item => {
         listaItens.innerHTML +=`
@@ -18,6 +18,9 @@ async function carregarItens(){
         </div>
         `
     });
+    }catch(error){
+        listaItens.innerHTML +=`Ocoreu um erro ao baixar a API: ${error}`
+    }
 }
 
 
